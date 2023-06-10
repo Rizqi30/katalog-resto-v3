@@ -1,10 +1,12 @@
 @media screen and (max-width: 499px) {
     .hero__title {
         font-size: 18px;
+        padding: 5px;
     }
 
     .hero__tagline {
         font-size: 13px;
+        padding: 4px;
     }
 }
 

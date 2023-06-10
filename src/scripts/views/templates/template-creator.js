@@ -4,7 +4,7 @@ import 'lazysizes/plugins/parent-fit/ls.parent-fit';
 
 const createRestoDetailTemplate = (resto) => `
   <h2 class="resto__title">${resto.name}</h2>
-  <img class="resto__poster lazyload" src="${
+  <img class="resto__poster lazyload" data-src="${
     resto.pictureId
       ? CONFIG.IMG_URL_LARGE + resto.pictureId
       : 'https://picsum.photos/id/666/800/450?grayscale'
@@ -58,7 +58,7 @@ const createRestoItemTemplate = (resto) => `
   <div class="resto-item">
     <div class="resto-item__header">
       <img class="resto-item__header__poster lazyload" alt="${resto.name}"
-        src="${
+        data-src="${
           resto.pictureId
             ? CONFIG.IMG_URL_LARGE + resto.pictureId
             : 'https://picsum.photos/id/666/800/450?grayscale'

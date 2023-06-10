@@ -108,22 +108,23 @@ header-section {
 /* JUmbotron */
 .hero {
     background-position: top;
+    background-position: top;
     align-items: center;
-    max-height: 400px;
+    max-height: 500px;
     width: 100%;
     position: relative;
     overflow: hidden;
 }
 
 .hero img {
+    background-position: top;
     width: 100%;
-    max-height: 400px;
     object-fit: cover;
 }
 
 .layer {
     position: absolute;
-    min-height: 500px;
+    min-height: 600px;
     width: 100%;
     background-color: blue;
     opacity: 0.3;
@@ -165,7 +166,6 @@ main {
 
 .content .content__heading {
     font-weight: normal;
-    margin-top: 40px;
 }
 
 /*
